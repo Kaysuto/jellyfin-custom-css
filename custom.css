@@ -7,17 +7,14 @@ h4 {
   font-family: "Archivo Narrow", sans-serif;
 }
 :root {
-  /* Couleurs principales */
-  --accent: 147, 51, 234;        /* Violet principal plus lumineux */
-  --accent-off: 88, 30, 140;     /* Violet secondaire plus profond */
-  /* Arrière-plans */
-  --dark: 28, 27, 34;            /* Fond sombre avec une touche de violet */
-  --darkest: 16, 14, 22;         /* Presque noir avec nuance violette */
-  --dark-highlight: 54, 48, 68;  /* Gris-violet pour les surbrillances */
-  --dark-apparent: 38, 35, 46;   /* Gris-violet moyen */
-  /* Couleurs claires */
-  --white: 248, 247, 255;        /* Blanc légèrement violet */
-  --white-off: 232, 229, 245;    /* Blanc cassé avec teinte violette */
+  --accent: 147, 51, 234;    
+  --accent-off: 88, 30, 140;
+  --dark: 28, 27, 34;
+  --darkest: 16, 14, 22;
+  --dark-highlight: 54, 48, 68;
+  --dark-apparent: 38, 35, 46;
+  --white: 248, 247, 255;
+  --white-off: 232, 229, 245;
 }
 .backgroundContainer {
   background-color: rgba(var(--accent), 0.17) !important;
